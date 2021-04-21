@@ -1,6 +1,9 @@
+*{
+    text-decoration: none;
+}
 .entete{
     display: flex;
-    flex: ;
+    
 }
 .entete strong{
     color: #0065FC;
