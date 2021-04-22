@@ -9,16 +9,47 @@
     color: #0065FC;
 }
 
+nav{
+
+}
+
+span:hover{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     display: flex;
 }
 
 .blocf{
     width: 33%;
+    background:#F2F2F2;
 }
 
 .inter{
-    background: silver;
+   /* background: #F2F2F2;*/
     padding: 30px;
     margin: 30px;
 }
