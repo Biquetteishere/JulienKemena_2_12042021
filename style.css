@@ -3,8 +3,31 @@
 }
 .entete{
     display: flex;
-    
+
 }
 .entete strong{
     color: #0065FC;
 }
+
+footer{
+    display: flex;
+}
+
+.blocf{
+    width: 33%;
+}
+
+.inter{
+    background: silver;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
