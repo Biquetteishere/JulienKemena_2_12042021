@@ -1,26 +1,60 @@
+@font-face {
+    font-family: "raleway regular";
+    src: url("fonts/Raleway-Regular.ttf");
+}
+.filtres i{
+    color: #0065FC;
+}
+
+
 *{
     text-decoration: none;
+    font-family: raleway regular;
 }
 .entete{
     display: flex;
 
 }
-.entete strong{
+.navigation{
+    justify-content: flex-end;
+}
+
+
+.inscription{
     color: #0065FC;
+    text-align: ;
 }
 
 nav{
 
 }
 
-span:hover{
-    color:red;
+
+.filtres{
+    display: flex;
 }
 
+.hebergementmarseille article{
+    width: 50%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+
+
+}
+
+article{
+    width: 68%;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+aside{
+    background-color: #F2F2F2;
+    border-radius: 20px;
 
 
 
-
+}
 
 
 
@@ -49,7 +83,6 @@ footer{
 }
 
 .inter{
-   /* background: #F2F2F2;*/
     padding: 30px;
     margin: 30px;
 }
