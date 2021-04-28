@@ -2,37 +2,82 @@
     font-family: "raleway regular";
     src: url("fonts/Raleway-Regular.ttf");
 }
-.filtres i{
-    color: #0065FC;
-}
-
 
 *{
     text-decoration: none;
     font-family: raleway regular;
 }
+/*haut de page*/
 .entete{
     display: flex;
 
 }
 .navigation{
-    justify-content: flex-end;
+    display: flex;
+    margin-left: 90px;
+
+}
+.navigation div{
+    justify-content: space-around;
 }
 
+.navigation a{
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.navigation a:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding: 10px;
+}
 
 .inscription{
     color: #0065FC;
-    text-align: ;
+}
+/*milieu de page filtres*/
+.search{
+    display: flex;
 }
 
-nav{
-
+.search i{
+    background-color: #F2F2F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px 0px 0px 12px;
+    align-items: center;
 }
-
+.recherche{
+    height: 40px;
+}
+.bouton-recherche{
+    width: 90px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 0px 12px 12px 0px;
+}
 
 .filtres{
     display: flex;
 }
+
+.filtres i{
+    color: #0065FC;
+}
+.filtres a{
+    border: 1px solid #F2F2F2;
+    border-radius: 12px;
+    padding-top: 12px;
+    
+}
+
+/*milieu de page/ hebergement*/
+.hebergementmarseille{
+    display: inline-block;
+}
+
+
 
 .hebergementmarseille article{
     width: 50%;
@@ -52,39 +97,27 @@ aside{
     background-color: #F2F2F2;
     border-radius: 20px;
 
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*bas de page*/
 footer{
     display: flex;
+    background:#F2F2F2;
+    width: 100%;
+    
+   
 }
 
 .blocf{
+    display: block;
     width: 33%;
-    background:#F2F2F2;
+    flex-wrap: wrap;
 }
 
 .inter{
     padding: 30px;
     margin: 30px;
+    flex-wrap: wrap;
 }
 
 
