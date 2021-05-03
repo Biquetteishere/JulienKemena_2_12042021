@@ -24,6 +24,9 @@
     text-decoration: none;
     font-family: "raleway";
 }
+.bold{
+    font-weight: bold;
+}
 h3{
     font-weight: bold;
 }
@@ -78,32 +81,39 @@ h3{
     color: white;
     border-radius: 0px 12px 12px 0px;
     border: none;
+    cursor: pointer;
 }
 /*milieu de page filtres*/
 
 .filtres{
     display: flex;
-    width: 40%;
-    background-color: #F2F2F2;
+    width: 45%;
+    justify-content: space-between;
+    
+}
+.filtres p{
+    margin-top: 20px;
 }
 
 .filtres i{
     width: 25px;
     height: 25px;
-    border: solid #F2F2F2 2px;
+    border: solid #F2F2F2 10px;
     border-radius: 50%;
     color: #0065FC;
     background-color: #F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.8em;
+    font-size: 1.3em;
     margin-right: 15px;
 }
 .iconsNtext{
+    margin-top: 20px;
     border: 1px solid #F2F2F2;
     border-radius: 25px 25px 25px 25px;
-    padding-top: 12px;  
+    display: flex;
+    align-items: center;
     
 }
 .info{
@@ -132,23 +142,17 @@ h3{
 
 .hebergementmarseille{
     width: 100%;
-    margin-left: 20px;
+    margin-left: 35px;
+    padding-top: 10px;
 }
 .pp1{
     display: flex;
 }
 
-.hebergementmarseille article{
-    width: 100%;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-
-
-}
 
 article{
     width: 100%;
-    height: 600px;
+    height: 700px;
     border-radius: 20px;
     background-color: #F2F2F2;
     flex-wrap: wrap;
@@ -174,12 +178,29 @@ article{
     object-fit: cover;
     background-color: #fff;
     color: #fff;
-    margin:auto;
     border-radius: 25px 25px 0 0;
+}
+.nom{
+    font-weight: bold;
+    padding-left: 10px;
+}
+.stars{
+    display: flex;
+    padding-left: 10px;
+}
+.price{
+    padding-left: 10px;
+}
+.bluestar{
+    color: #0065FC;
+}
+.greystar{
+    color: #F2F2F2;
 }
 
 aside{
     width: 42%;
+    padding-bottom: 30px;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 30px;
@@ -189,6 +210,10 @@ aside i{
     
     display: flex;
     color: #0065FC;
+}
+.pop{
+    display: flex;
+    
 }
 .imgpop{
     background-color: #fff;
