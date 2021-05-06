@@ -326,8 +326,9 @@ aside{
 
 .activites{
     display: flex;
-    width: 100%;
+    width: 98%;
     height: 450px;
+    margin-left: 20px;
 }
 .titre{
     width: 100%;
