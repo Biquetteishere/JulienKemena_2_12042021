@@ -3,32 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/css" rel="stylesheet" href="style.css">
 	<script src="https://kit.fontawesome.com/73703592d6.js" crossorigin="anonymous"></script>
 	<title>Reservia</title>
 </head>
 <body>
 	<header class="entete">
-		<a href="index.html">
+		<nav class="top">
+			<a href="index.html">
 			<img alt="Logo" class="logo" src="Reservia.svg">
-		</a>
-		<nav class="navigation">
-			<nav class="sous-nav">
-				<div><a class="hebergement" href="#hebergementMarseille">Hébergements</a></div>
-				<div><a class="activite" href="#activites">Activités</a></div>
-			</nav>	
-			<div class="inscription"><strong><a class="inscription" href="#"> S'inscrire </a></strong></div>	
+			</a>
 		</nav>
+		<nav class="navigation">
+			<div><a class="hebergement" href="#hebergementMarseille">Hébergements</a></div>
+			<div><a class="activite" href="#activites">Activités</a></div>
+		</nav>	
+		<div class="inscription"><strong><a class="inscription" href="#"> S'inscrire </a></strong></div>
 	</header>
+		<div class="navresponsive">
+			<div><a class="hebergement" href="#hebergementMarseille">Hébergements</a></div>
+			<div><a class="activite" href="#activites">Activités</a></div>
+		</div>
 
-	<section class="debut de page">
+	<section class="debut-de-page">
 		<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 		<p>En plein centre ville ou en pleine nature</p>
 		<div class="search">
-			<i class="fas fa-map-marker-alt"></i>
+			<div class="mapico"><i class="fas fa-map-marker-alt"></i></div>
 			<input class="recherche" type="search" name="recherche" required="" size="20" placeholder="Marseille,France">
-			<button class="bouton-recherche" type="button">Rechercher</button>
+			<button class="bouton-recherche" type="button"><div class="txtbutton">Rechercher</div><div class="searchico"><i class="fas fa-search"></i></div></button>
 		</div>
 		<div class="filtres">
 			<h3><strong>Filtres</strong></h3>
@@ -138,7 +142,7 @@
 						<div class="desc">
 							<h3 class="nom">Hôtel Le soleil du matin</h3>
 							<div class="pricepop">Nuit a partir de 128 <span class="bold">€</span></div>
-							<div class="stars">
+							<div class="stars1">
 								<div class="bluestar"><i class="fas fa-star"></i></div>
 								<div class="bluestar"><i class="fas fa-star"></i></div>
 								<div class="bluestar"><i class="fas fa-star"></i></div>
@@ -152,7 +156,7 @@
 					<div class="desc">
 						<h3 class="nom">Au coeur de l'eau Chambres d'hôtes</h3>
 						<div class="pricepop">Nuit a partir de 71 <span class="bold">€</span></div>
-						<div class="stars">
+						<div class="stars2">
 							<div class="bluestar"><i class="fas fa-star"></i></div>
 							<div class="bluestar"><i class="fas fa-star"></i></div>
 							<div class="bluestar"><i class="fas fa-star"></i></div>
@@ -167,7 +171,7 @@
 					<div class="desc">
 						<h3 class="nom">Hôtel Tout bleu et Blanc</h3>
 						<div class="pricepop">Nuit a partir de 68 <span class="bold">€</span></div>
-						<div class="stars">
+						<div class="stars3">
 							<div class="bluestar"><i class="fas fa-star"></i></div>
 							<div class="bluestar"><i class="fas fa-star"></i></div>
 							<div class="bluestar"><i class="fas fa-star"></i></div>
