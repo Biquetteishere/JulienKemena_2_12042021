@@ -283,11 +283,12 @@ article {
   font-weight: bold;
   padding: 5px 0 5px 10px;
   margin: 0;
-  font-size: 17px;
+  font-size: 16px;
 }
 .stars {
   display: flex;
-  padding-left: 10px;
+  padding-left: 8px;
+  font-size: 15px;
 }
 .stars1 {
   display: flex;
@@ -303,6 +304,7 @@ article {
 }
 .price {
   padding-left: 10px;
+  font-size: 15px;
 }
 .bluestar {
   color: #0065fc;
@@ -378,8 +380,8 @@ aside {
 
 .activites {
   display: flex;
-  width: 98%;
-  margin-left: 20px;
+  width: 99%;
+  margin-left: 10px;
 }
 .titre {
   width: 90%;
@@ -387,6 +389,13 @@ aside {
   margin-bottom: 30px;
   margin-left: 30px;
   font-size: 20px;
+}
+.box {
+  display: flex;
+  width: 50%;
+}
+.doublecard {
+  width: 50%;
 }
 
 .act1 {
@@ -447,7 +456,7 @@ aside {
 .actbig1 {
   background-color: #fff;
   min-height: 230px;
-  width: 28%;
+  width: 50%;
   border-radius: 20px;
   transition: 0.4s;
   box-shadow: 0 0 6px 3px #adadad46;
@@ -456,7 +465,7 @@ aside {
 .actbig2 {
   background-color: #fff;
   min-height: 230px;
-  width: 28%;
+  width: 50%;
   border-radius: 20px;
   transition: 0.4s;
   box-shadow: 0 0 6px 3px #adadad46;
@@ -512,7 +521,7 @@ li {
   margin-bottom: 5px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   body {
     margin: 0;
   }
@@ -525,12 +534,6 @@ li {
   .debut-de-page {
     margin-left: 10px;
   }
-
-  .activites {
-    width: 100%;
-    margin-left: 0px;
-  }
-
   .filtres {
     flex-direction: column;
   }
@@ -590,7 +593,6 @@ li {
     color: #0065fc;
     border-top: none;
   }
-
   .menu {
     display: flex;
     width: 100%;
@@ -626,6 +628,10 @@ li {
   .pricepop2 {
     margin-bottom: 16px;
   }
+  .activites {
+    flex-direction: column;
+    width: 100%;
+  }
   .actbig1 {
     min-height: 185px;
     width: 90%;
@@ -637,7 +643,7 @@ li {
     margin: 0px 30px;
   }
   .actimgbig {
-    height: 185px;
+    height: 150px;
   }
   .act1 {
     width: 90%;
@@ -655,21 +661,30 @@ li {
     width: 90%;
     margin: 30px;
   }
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .doublecard {
+    width: 100%;
+  }
   footer {
     flex-direction: column;
   }
   .blocf {
     width: 80%;
+    margin: 20px 30px;
   }
 }
-@media screen and (min-width: 801px) and (max-width: 1300px) {
+
+@media screen and (min-width: 851px) and (max-width: 1320px) {
   .imginaside {
     width: 75px;
   }
 }
-@media screen and (max-width: 1000px) {
-}
-@media screen and (min-width: 801px) and (max-width: 1000px) {
+
+@media screen and (min-width: 851px) and (max-width: 1024px) {
   .pricepop1 {
     margin-bottom: 0;
   }
@@ -681,7 +696,7 @@ li {
   }
   .activites {
     flex-direction: column;
-    width: 98%;
+    width: 100%;
   }
   .actbig1 {
     min-height: 185px;
@@ -694,7 +709,7 @@ li {
     margin: 0px 30px;
   }
   .actimgbig {
-    height: 185px;
+    height: 150px;
   }
   .act1 {
     width: 90%;
@@ -711,5 +726,31 @@ li {
   .act4 {
     width: 90%;
     margin: 30px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .doublecard {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+  .imgheber {
+    height: 135px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  .box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .activites {
+    flex-direction: column;
+  }
+  .actbig2 {
+    margin-left: 0;
   }
 }
