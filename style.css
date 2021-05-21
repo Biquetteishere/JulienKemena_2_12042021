@@ -330,14 +330,15 @@ aside {
   margin: 35px 0 35px 35px;
 }
 .pop {
+  padding-right: 10px;
+  padding-left: 15px;
+}
+.popentete {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-right: 40px;
   padding-left: 15px;
-}
-.pop i {
-  color: black;
 }
 .imgpop {
   background-color: #fff;
@@ -630,7 +631,7 @@ li {
   }
   .activites {
     flex-direction: column;
-    width: 100%;
+    width: 88%;
   }
   .actbig1 {
     min-height: 185px;
